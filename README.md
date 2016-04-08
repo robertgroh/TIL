@@ -36,7 +36,7 @@ On the Server
  - add it (`autocutsel -fork`) to `/USER/.vnc/xstartup`
 
 ---
-[Source](http://raspberrypi.stackexchange.com/a/4475)
+[Source](http://raspberrypi.stackexchange.com/a/4475), [Using Clipboard with Xfce and TightVNC](https://superuser.com/questions/901970/using-clipboard-with-xfce-and-tightvnc)
 
 
 ## ACL (Set File access control list)
