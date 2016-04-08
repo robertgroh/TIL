@@ -30,10 +30,10 @@ setxkbmap us
 - :white_large_square: works?
 
 ## ACL (Set File access control list)
-### Set default permissions for all new create files in a folder (recnursivly):
+### Set default permissions for all new create files in a folder (recursively):
 
 ```bash
-setfacl -Rdm u::rwx,g::rwx,o::r <folder>
+setfacl -Rdm u::rwx,g::rwx,o::r ${FOLDER}
 ```
 - `-R, --recursive`
 - `-d, --default`
