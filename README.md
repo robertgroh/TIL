@@ -7,17 +7,23 @@ Things I learned
 # sudo apt-get install console-data
 sudo dpkg-reconfigure console-data
 ```
+- :white_large_square: works?
 
 ### keyboard-configuration
 ```
 sudo dpkg-reconfigure keyboard-configuration
 ```
+- :white_large_square: works?
 
 ### loadkeys 
 ```loadkeys us```
+- :white_check_mark: works on the fly (root permission necessary)
+  - tested on ubuntu 14.04 for tty1 in VmWare
+- :question: does it survive a reboot? or does it work temporaly?
 
 ### X-Server
 ```setxkbmap us```
+- :white_large_square: works?
 
 ## ACL (Set File access control list)
 ### Set default permissions for all new create files in a folder (recnursivly):
