@@ -29,6 +29,16 @@ setxkbmap us
 ```
 - [ ] works?
 
+## TightVncServer
+### Allow sharing of clipboard
+On the Server
+ - First install autocutsel (`sudo apt-get install autocutsel`)
+ - add it (`autocutsel -fork`) to `/USER/.vnc/xstartup`
+
+---
+[Source](http://raspberrypi.stackexchange.com/a/4475)
+
+
 ## ACL (Set File access control list)
 ### Set default permissions for all new create files in a folder (recursively):
 
