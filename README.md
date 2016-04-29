@@ -7,13 +7,14 @@ Things I learned
 # sudo apt-get install console-data
 sudo dpkg-reconfigure console-data
 ```
-- [ ] works?
+- [] works?
 
 ### keyboard-configuration
 ```bash
 sudo dpkg-reconfigure keyboard-configuration
 ```
-- [ ] works?
+- [x] works
+- survives reboot (updates initrd (ramdisk))
 
 ### loadkeys 
 ```bash
@@ -21,7 +22,7 @@ loadkeys us
 ```
 - [x] works on the fly (root permission necessary)
   - tested on ubuntu 14.04 for tty1 in VmWare
-- :question: does it survive a reboot? or does it work temporaly?
+- doesn't survive a reboot! (only temporarly)
 
 ### X-Server
 ```bash
