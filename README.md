@@ -7,7 +7,7 @@ Things I learned
 # sudo apt-get install console-data
 sudo dpkg-reconfigure console-data
 ```
-- [] works?
+- [ ] works?
 
 ### keyboard-configuration
 ```bash
@@ -29,6 +29,13 @@ loadkeys us
 setxkbmap us
 ```
 - [ ] works?
+
+## VNC Client
+### xtightvncviewer
+ - use compression: `-compresslevel 9`
+ - use SSH tunnel: `-via: user@domain.tld`
+
+e.g.: `xtightvncviewer -compresslevel 9 -via: user@domain.tld localhost:1`
 
 ## TightVncServer
 ### Allow sharing of clipboard
