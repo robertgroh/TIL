@@ -33,9 +33,9 @@ setxkbmap us
 ## VNC Client
 ### xtightvncviewer
  - use compression: `-compresslevel 9`
- - use SSH tunnel: `-via: user@domain.tld`
+ - use SSH tunnel: `-via user@domain.tld`
 
-e.g.: `xtightvncviewer -compresslevel 9 -via: user@domain.tld localhost:1`
+e.g.: `xtightvncviewer -compresslevel 9 -via user@domain.tld localhost:1`
 
 ## TightVncServer
 ### Allow sharing of clipboard
