@@ -60,4 +60,7 @@ All operations apply to the Default ACL. Regular ACL entries in the input set ar
 The `-m` (`--modify`) and `-M` (`--modify-file`) options modify the ACL of a file or directory.  ACL entries for this operation must include permissions.  
 The options `-m`, and `-x` expect an ACL on the command line. Multiple ACL entries are separated by comma characters (`,')
 
+## SSH
+### Check server fingerprint of your localhost
+```ssh-keyscan localhost | ssh-keygen -E md5 -lf -```
 
