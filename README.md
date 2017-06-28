@@ -62,5 +62,7 @@ The options `-m`, and `-x` expect an ACL on the command line. Multiple ACL entri
 
 ## SSH
 ### Check server fingerprint of your localhost
-```ssh-keyscan localhost | ssh-keygen -E md5 -lf -```
+```bash
+ssh-keyscan localhost | ssh-keygen -E md5 -lf -
+```
 
