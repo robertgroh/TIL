@@ -66,3 +66,13 @@ The options `-m`, and `-x` expect an ACL on the command line. Multiple ACL entri
 ssh-keyscan localhost | ssh-keygen -E md5 -lf -
 ```
 
+# Distribution specific commands
+## Red Hat
+### Activate Service (Run at Boot)
+```
+sudo chkconfig <service> on
+# check
+sudo chkconfig --list
+```
+
+
